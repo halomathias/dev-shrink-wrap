@@ -1,1 +1,0 @@
-brew "ssh-copy-id"
