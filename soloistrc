@@ -1,0 +1,12 @@
+recipes:
+- meta::osx_base
+- meta::osx_development
+- meta::ruby_development
+- pivotal_workstation::git_projects
+- pivotal_workstation::bartender
+- pivotal_workstation::intellij_ultimate_edition
+node_attributes:
+  git_projects:
+    -
+      - dev-shrink-wrap
+      - https://github.com/zchong/dev-shrink-wrap.git
