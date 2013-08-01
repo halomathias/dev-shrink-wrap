@@ -4,7 +4,6 @@ recipes:
 - meta::ruby_development
 - pivotal_workstation::git_projects
 - pivotal_workstation::bartender
-- pivotal_workstation::intellij_ultimate_edition
 node_attributes:
   git_projects:
     -
